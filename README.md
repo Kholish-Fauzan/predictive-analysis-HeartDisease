@@ -142,7 +142,7 @@ Terdapat dummy variable untuk tipe nyeri dada:
   - `KNeighborsClassifier(n_neighbors=5)`: artinya model akan melihat 5 tetangga terdekat (k=5) untuk menentukan kelas dari data baru.
   - `y_pred_knn = knn.predict(X_test_scaled)`: Untuk setiap titik pada `X_test_scaled`, model:
     - Mengukur jarak antara titik tersebut dan semua data di X_train_scaled.
-    - Menemukan k tetangga terdekat (dalam hal ini 5) berdasarkan jarak terkecil (default: Euclidean distance) ![Rumus Euclidian](Images/Euclidean.png)
+    - Menemukan k tetangga terdekat (dalam hal ini 5) berdasarkan jarak terkecil (default: Euclidean distance).
     - Mengambil mayoritas label dari tetangga tersebut sebagai prediksi kelas.
   - `confusion_matrix`: Menunjukkan berapa banyak prediksi yang benar/salah (TP, TN, FP, FN).
 
